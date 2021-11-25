@@ -1,0 +1,831 @@
+body
+{
+	background-color:#ffffff;
+}
+
+#wrapper
+{
+	width:1100px;
+	height:auto;
+	margin:auto;
+	background-color:#0059b3;
+	border: 1px solid #000000;
+}
+
+header 
+{
+	width:1060px;
+	margin:20px;
+	background-color:#ffffff;
+	border: 1px solid #000000;
+}
+
+header h1 
+{
+	text-align:center;
+	font-family:Arial;
+}
+
+nav#visible
+{
+	width:1060px;
+	margin:20px;
+	background-color:#ffffff;
+	border: 1px solid #000000;
+	text-align:center;
+}
+
+
+nav ul 
+{
+	list-style-type:none;
+}
+
+nav li 
+{
+	display:inline-block;
+	margin:10px;
+}
+nav a
+{
+	font-family:Arial;
+	padding:5px;
+	background:#e0ebeb;
+	border: 1px solid #000000;
+	text-decoration:none;
+	/*text-underline:none;*/
+}
+
+nav a:hover 
+{
+	color:#760001;
+	border-bottom:3px solid #760001;
+}
+
+#contenido 
+{
+	width:1060px;
+	margin:20px;
+	background-color:#003366;
+	border: 1px solid #000000;
+}
+
+#contenedorphp 
+{
+        margin:20px auto;
+	font-family:Arial;
+	width:1000px;
+	background-color:#ffffff;
+	border: 1px solid #000000;
+}
+
+#contenedorphp div
+{
+	font-family:Arial;
+	width:960px;
+	margin:20px;
+	background-color:#ffffff;
+	border: 1px solid #000000;
+}
+
+#cabeceraform            
+{
+	font-family:Arial;
+	width:960px;
+	margin:20px;
+	background-color:#8dc7e7;
+	border: 1px solid #000000;
+	
+}
+
+#formulario 
+{
+	width:960px;
+	margin:20px;
+	background-color:#8dc7e7;
+	border: 1px solid #000000;
+}
+
+#formulario form ul li 
+{
+	margin:15px;
+	border: 1px solid #000000;
+	padding:5px;
+}
+
+#formulario form ul li h2
+{
+	text-align:center;
+}
+
+#formulario form ul li label 
+{
+	margin:15px;
+}
+
+form ul 
+{
+	list-style-type:none;
+}
+
+#formulario form ul li button
+{
+	display:block;
+	margin:0 auto;
+}
+
+
+
+#pie 
+{
+	width:1060px;
+	height:auto;
+	margin:20px;
+	background-color:#ffffff;
+	border: 1px solid #000000;
+}
+
+footer p
+{
+	text-align:center;
+	font-family:Arial;
+	margin:20px;
+	background-color:#ffffff;
+	/*border: 1px solid #000000;*/
+}
+
+
+div#coincidencia{
+  width:100px;
+  text-align:center;
+  font-family:Arial;
+  margin:20px;  
+  background-color:red;
+  border: 1px solid #000000;
+  display:inline-block;
+}
+
+div#nocoincidencia{
+  width: 100px;
+  text-align:center;
+  font-family:Arial;
+  margin:20px;  
+  background-color:cyan;
+  border: 1px solid #000000;
+  display:inline-block;
+}
+
+div#empresa{
+   border: 1px solid #000000; 
+    
+}
+
+
+
+div#cambiaestilo{
+    margin:10px;
+    padding: 20px;
+    float:left;
+    border: 1px solid #000000;
+    background:#e0ebeb;
+}
+div#fecha {
+    margin:10px;
+    padding: 10px;
+    float:right;
+    border: 1px solid #000000;  
+    background:#e0ebeb;
+}
+
+div#nombre {
+    display: inline;
+    text-decoration: underline;
+    font-family:Arial;
+    color:red;
+}
+
+div#spacer
+{
+    clear:both;
+}
+
+.activo{
+    background-color: cyan;
+}
+
+#inicio h1
+{
+    text-align: center;
+    border: 1px solid #000000;
+    background:#e0ebeb;
+    margin: 20px;
+}
+
+#inicio img
+{
+    border: 1px solid #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#inicio p
+{
+    border: 1px solid #000000;
+    background:#e0ebeb;
+    margin: 20px;
+    padding:10px;
+}
+
+div#productos
+{
+   background:#a3c2c2;
+    
+    margin-left: 20px;
+    margin-right: 20px; 
+    
+}
+
+#productos img
+{
+    background: white;
+    width: 700px;
+    height:400px;
+    margin-left: 130px;
+    margin-right: 130px;   
+}
+
+div#producto
+{
+   background:#e0ebeb; 
+   width: 900px;
+   padding: 20px auto;
+}
+
+div#producto h1
+{
+   background:#e0ebeb; 
+   width: 900px;
+   text-align: center;
+}
+
+div#producto p
+{
+   padding:10px;
+}
+
+form.formulariologinvisible > fieldset{
+	margin:20px;
+	background-color:#ffffff;
+
+}
+
+form.formulariologinvisible > fieldset div{
+    display:inline;
+    margin:20px;
+}
+
+form.formulariologinvisible > fieldset legend{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+div#registro{
+    border: 1px solid #000000;
+}
+
+div#registro > div{
+    display:block;
+    margin:20px auto;
+    width:350px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #000000;
+    background-color: #e0ebeb;
+    
+}
+
+div#registro label{
+    width:70px;
+    margin:auto;   
+}
+
+div#registro input{ 
+    width:100px;
+    margin:auto;   
+}
+
+div#registro button{  
+    display:block;
+    margin: 0 auto;
+    width:100px;
+    margin:auto;
+    margin:auto;   
+}
+
+div#informeregistro {
+    border-radius: 3px;
+    width:300px;
+    color: red;
+    text-align: center;
+    font-family:Arial;
+    font-weight: bold;
+}
+
+div#administracion{
+    border:3px solid black;
+    text-align:center;
+    background-color:springgreen;
+}
+div#administracion2{
+    border:1px solid black;
+    background-color:#e0ebeb;
+}
+
+div#carrito{
+    /*float:right;*/
+    right:0;    
+    display:block;
+    padding: 20px 20px 20px 20px;
+    position:fixed;
+    border: 1px solid black;
+    background-color: #0059b3;
+}
+div#carrito > div.titutlo{
+    
+    padding:3px 10px 3px 10px;
+    background-color: #293d3d;
+    text-align:center;
+    font-family:Arial;
+    color:white;
+}
+
+div#carrito > div.cantidad{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding:0px 10px 0px 10px;
+    background-color: #293d3d;
+    text-align:center;
+    font-family:Arial;
+    color:white;
+}
+
+div#carrito > div.elementocarrito{
+    display:block;
+    border: 1px solid black;
+    margin:10px 0px 10px 0px;
+    background-color: white;
+}
+
+div#carrito > div.elementocarrito a{
+    display:block;
+    margin:10px 0px 10px 0px;
+    background-color: white;
+    font-family:Arial;
+    text-align:center;
+    text-decoration: none;
+    color:red;
+}
+
+div#carrito > div.elementocarrito img{
+    display:block;
+    margin:10px 0px 10px 0px;
+    background-color: white;
+    margin:5px 45px 0px 45px;
+}
+
+
+div#formproducto{
+    display:block;
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:#e0ebeb;
+    width: 400px;
+    background-color: white;
+}
+div#cantidadProducto{
+    display:block;
+    margin: 10px auto;
+    padding: 20px 0px 20px 20px;
+    background-color:#ccc;
+    width: 300px;
+    border:none;
+    border-radius: 3px;
+}
+div#anyadecarrito{
+    display:block;
+    margin: 0 auto;
+    padding: 20px 0px 20px 20px;
+    background-color: #ccc;
+    width: 300px;
+    border:none;
+    border-radius: 3px;
+}
+div#carrocontenedor{
+    display:block;
+    background-color:palegreen;
+    align-content: center;
+}
+div#carro1{
+    display:block;
+    width:700px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+div#carro2{
+    display:block;
+    width:700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 131px;
+    margin-right: 131px;
+    text-align:center !important;
+    background-color:#293d3d;
+     color:white;
+}
+div#carro3{
+    display:block;
+    width:700px;
+    margin-left: 131px;
+    margin-right: 131px;
+    text-align:center !important;
+    background-color: #a3c2c2;
+}
+div#carro4{
+    display:block;
+    width:680px;
+    padding: 20px 0px 20px 20px;;
+    margin-left: 131px;
+    margin-right: 131px;
+    background-color: #293d3d;
+    color:white;
+}
+div#carro5{
+    display:block;
+    width:700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 131px;
+    margin-right: 131px;
+    text-align:center !important;
+    background-color:#293d3d;
+    color:white;
+}
+
+div#carro4 span {
+    display:inline-block;
+    color: red;
+    font-weight:bold;
+}
+
+div#carro4 h2 {
+    display:block;
+    width:380px;
+    margin:0 auto;
+    color: red;
+    font-weight:bold;
+    background-color: greenyellow;
+    text-align: center; 
+}
+
+div#carro3 a {
+    display:inline-block; 
+    margin:10px 275px 10px 275px;
+    text-align:center;
+}
+/*
+div#formproducto{
+    display:block;
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:#e0ebeb;
+    width: 400px;
+   
+}
+div#cantidadProducto{
+    display:block;
+    margin: 10px auto;
+    padding: 20px 0px 20px 20px;
+    background-color:#ccc;
+    width: 300px;
+    border:none;
+    border-radius: 3px;
+}
+div#anyadecarrito{
+    display:block;
+    margin: 0 auto;
+    padding: 20px 0px 20px 20px;
+    background-color: #ccc;
+    width: 300px;
+    border:none;
+    border-radius: 3px;
+}
+
+div#carrocontenedor{
+   display:block;
+   background-color:palegreen;
+   align-content: center;
+}
+div#carro1{
+    display:block;
+    width:700px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+div#carro2{
+    display:block;
+    width:700px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+div#carro3{
+    display:block;
+    width:700px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+div#carro4{
+    display:block;
+    width:680px;
+    padding: 20px 0px 20px 20px;;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+div#carro5{
+    display:block;
+    width:700px;
+    text-align:center;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+
+div#carro4 span {
+    display:inline-block;
+    color: red;
+    font-weight:bold;
+}
+
+div#carro4 h2 {
+    display:block;
+    width:380px;
+    margin:0 auto;
+    color: red;
+    font-weight:bold;
+    background-color: greenyellow;
+    text-align: center; 
+}
+
+div#carro3 a {
+    display:inline-block; 
+    margin:10px 275px 10px 275px;
+}
+*/
+div#navegacionadministracion{
+    padding: 15px 0px 15px 0px;
+    background-color: #a3c2c2;
+}
+
+div#navegacionadministracion h1{
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width:510px;
+    padding:10px 0px 10px 0px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+div#navegacionadministracion ul{
+    display:block;
+    width:510px;
+    margin:0 auto;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid white;
+    list-style-type:none;
+}
+
+div#navegacionadministracion li{
+    display:inline-block;
+    border: 2px solid black;
+    background-color:white;
+    
+    margin-left:10px;
+}
+div#navegacionadministracion a{
+    text-decoration:none;
+    padding: 0px 42px 0px 42px;
+    color:black;
+}
+
+div#navegacionadministracion li:hover{
+    background-color:black;
+    border: 2px solid white;
+    color:white;  
+}
+div#navegacionadministracion a:hover{
+   color:white;   
+}
+.activoadministracion{
+    background-color:black;
+    border: 3px solid white;
+     
+}
+
+div#navegacionadministracion a.activoadministracion{
+    color:white;
+}
+
+div#administracionproductos{
+    background-color:greenyellow; 
+    border: 3px solid black;
+    
+}
+div#administracionproductos h2{
+    display:block;
+    text-align:center;
+}
+div#administracionproductos a{
+    display:block;
+    text-align:center;
+}
+
+
+div.productosadministracion{
+    background-color: #e0ebeb !important;
+}
+div#titulo{
+    display:inline-block  !important;
+    background-color:greenyellow !important;
+    height: 20px;
+    width: 800px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-left:80px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+div#vuelve{
+    display:inline-block  !important;
+    background-color:#a3c2c2 !important;
+    height: 20px;
+    width: 800px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left:80px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+div#precio{
+    display:inline-block  !important;
+    background-color:#293d3d !important;
+    height: 20px;
+    width: 800px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left:80px;
+    margin-right: 80px;
+    font-weight: bold;
+    color:white;
+}
+div.detalles{
+    display:inline-block !important;
+    margin-top: 0px !important;
+    width: 740px !important;
+    padding: 10px 10px 10px 50px !important;
+    margin-left:80px !important;
+    margin-right: 80px !important;
+    background-color: #293d3d !important;
+    color:white;
+}
+
+form.formulariocambiaimagen > fieldset{
+    margin:20px;
+    background-color:#ffffff;
+    padding: 10px 10px 0px 10px;
+}
+
+form.formulariocambiaimagen > fieldset div{
+    display:block;
+    background-color:#e0ebeb;
+    border: 1.5px solid black;
+    margin-bottom: 10px;
+}
+
+form.formulariocambiaimagen > fieldset legend{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+form.formulariocambiaimagen > fieldset p{
+   font-family: Arial;
+   margin-left: 30px;
+}
+form.formulariocambiaimagen > fieldset span{
+   padding:10px 0px 10px 0px;
+   font-family: Arial;
+   margin-left: 30px;
+}
+form.formulariocambiaimagen > fieldset input{
+   display:inline;
+   padding:10px 0px 10px 0px;
+   font-family: Arial;
+}
+form.formulariocambiaimagen > fieldset button{
+   display:block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 460px;
+   font-family: Arial;
+}
+form.formulariocambiaimagen > fieldset a{
+   display:block;
+   padding:10px 0px 10px 0px;
+   font-family: Arial;
+   text-align: center;
+}
+
+span#error{
+    display: block !important;
+    color:red;
+    font-weight: bold;
+    width:500px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 270px;
+     border: 2px solid black;
+}
+
+#valoracion{
+    float:left;
+    margin-top: -60px;
+    margin-left: 120px;
+    height:50px ;
+    width:50px ;
+}
+img#imagenlike{
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1.5px solid black;
+    height:40px ;
+    width:40px ;
+    
+}
+
+#tabla{
+   width:auto;
+   height:auto;
+   display:block;
+   border: 2px solid black;
+   background-color: greenyellow;
+}
+
+.categorias th{
+    background-color:#e0ebeb;
+    border: 1.5px solid black;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.resultados th{
+    background-color: white;
+    border: 1.5px solid black;
+}
+
+form#formInsertar{
+    display:block;
+    background-color: greenyellow;
+    margin:30px;
+    border: 2.5px solid black;
+}
+form#formInsertar div{
+    display:block;
+    width:90%;
+    margin-left: 30px;
+    padding: 10px 0px 10px 30px;
+    
+}
+
+#paginacion{
+    width:350px !important;
+    margin:10px auto 10px auto !important;
+    text-align:center !important;
+    border:solid 2px black !important;
+    padding:10px !important;
+    background-color:greenyellow !important;
+    
+}
